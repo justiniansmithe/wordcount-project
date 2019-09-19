@@ -1,0 +1,14 @@
+<h1>WORD COUNT LEGO</h1>
+
+<a href="{% url 'about' %}">COUNT WORDS FOR LIFE</a>
+
+<br /><br />
+
+<form action="{% url 'count' %}">
+	<textarea cols="40" rows="5" name="fulltext"></textarea>
+	<br/><br/><br/>
+	<input type="submit" value="Count!" />
+
+
+
+</form>
